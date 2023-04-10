@@ -46,13 +46,13 @@
   <distributionManagement>
       <repository>
         <id>nexus</id>
-        <name>Landmark Technologies Releases Nexus Repository</name>
+        <name>Sizam Technologies Releases Nexus Repository</name>
         <url>http://13.41.75.210:8181/mysizamtek/repository/Third_demo_repo_Release/</url>
       </repository>
 
       <snapshotRepository>
         <id>nexus</id>
-        <name>Landmark Technologies Snapshot Nexus Repository </name>
+        <name>Sizam Technologies Snapshot Nexus Repository </name>
         <url>http://172.31.35.124:8181/mysizamtek/repository/Third_demo_repo_Snapshot/</url>
       </snapshotRepository>
 
@@ -60,14 +60,16 @@
 
   <build>
     <finalName>third-demo-project</finalName>
+    
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
       <groupId>org.apache.tomcat.maven</groupId>
       <artifactId>tomcat7-maven-plugin</artifactId>
       <version>2.2</version>
+          
       <configuration>
-      <url>http://172.31.35.124:8090/manager/text</url>
+     
       <server>TomcatServer</server>
       <path>/maven-web-application-webapp</path>
       </configuration>
