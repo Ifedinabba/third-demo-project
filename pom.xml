@@ -48,13 +48,13 @@
       <repository>
         <id>nexus</id>
         <name>Sizam Technologies Releases Nexus Repository</name>
-        <url>http://13.40.225.27:8181/mysizamtek/repository/third-demo-repo-release/</url>
+        <url>http://172.31.35.124:8181/mysizamtek/repository/third-demo-repo-release/</url>
       </repository>
 
       <snapshotRepository>
         <id>nexus</id>
         <name>Sizam Technologies Snapshot Nexus Repository </name>
-        <url>http://13.40.225.27:8181/mysizamtek/repository/third-demo-repo-snapshot//</url>
+        <url>http://172.31.35.124:8181/mysizamtek/repository/third-demo-repo-snapshot//</url>
       </snapshotRepository>
 
   </distributionManagement>
