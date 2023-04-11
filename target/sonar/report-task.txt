@@ -1,0 +1,6 @@
+projectKey=com.sizamtek:third-demo-project
+serverUrl=http://172.31.11.50:9000
+serverVersion=7.8.0.26217
+dashboardUrl=http://172.31.11.50:9000/dashboard?id=com.sizamtek%3Athird-demo-project
+ceTaskId=AYdvLqvM4OUrtyswuYge
+ceTaskUrl=http://172.31.11.50:9000/api/ce/task?id=AYdvLqvM4OUrtyswuYge
