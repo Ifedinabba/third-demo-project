@@ -43,7 +43,7 @@
 
   </dependencies>
 
-  <distributionManagement>
+   <distributionManagement>
       <repository>
         <id>nexus</id>
         <name>Sizam Technologies Releases Nexus Repository</name>
