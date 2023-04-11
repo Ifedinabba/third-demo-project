@@ -47,7 +47,7 @@
       <repository>
         <id>nexus</id>
         <name>Sizam Technologies Releases Nexus Repository</name>
-        <url>http://13.41.75.210:8181/mysizamtek/repository/Third_demo_repo_Release/</url>
+        <url>http://172.31.35.124:8181/mysizamtek/repository/Third_demo_repo_Release/</url>
       </repository>
 
       <snapshotRepository>
